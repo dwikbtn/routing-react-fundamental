@@ -11,4 +11,4 @@ const post = (props) => (
   </article>
 );
 
-export default withRouterpost;
+export default post;
