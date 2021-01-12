@@ -5,7 +5,7 @@ import Post from "../../../components/Post/Post";
 
 import "./Posts.css";
 
-export default class Posts extends Component {
+class Posts extends Component {
   state = {
     posts: [],
     selectedPostId: null,
@@ -51,3 +51,5 @@ export default class Posts extends Component {
     return <section className="Posts">{posts}</section>;
   }
 }
+
+export default Posts;
